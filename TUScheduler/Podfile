@@ -1,0 +1,19 @@
+xcodeproj 'TUScheduler'
+workspace '../TUScheduler'
+inhibit_all_warnings!
+
+def import_pods
+  pod 'OCMockito', :git=>'https://github.com/jonreid/OCMockito', :commit=> '2d39c38156563949405ad393fc09b6b82869b218'
+end
+
+target :ios do
+  platform :ios, '7.0'
+  link_with 'iOS Tests'
+  import_pods
+end
+
+target :osx do
+  platform :osx, '10.9'
+  link_with 'OS X Tests'
+  import_pods
+end

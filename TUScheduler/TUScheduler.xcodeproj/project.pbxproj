@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0333FA3E9E16413CB5308BD3 /* libPods-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B805CFB33D94810A26BBEA6 /* libPods-osx.a */; };
+		4E7B390019C2EFFC0031F68A /* TUSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B38FF19C2EFFC0031F68A /* TUSchedulerTest.m */; };
+		4E7B390119C2F0AC0031F68A /* TUSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7B38FF19C2EFFC0031F68A /* TUSchedulerTest.m */; };
+		4E98E56019C84E5F003CF9DA /* TUAsyncTestSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E98E55F19C84E5F003CF9DA /* TUAsyncTestSentinel.m */; };
+		4E98E56119C84E5F003CF9DA /* TUAsyncTestSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E98E55F19C84E5F003CF9DA /* TUAsyncTestSentinel.m */; };
+		4E98E56719C851F7003CF9DA /* TUFullySynchronousScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E98E56419C851F7003CF9DA /* TUFullySynchronousScheduler.m */; };
+		4E98E56819C851F7003CF9DA /* TUFullySynchronousScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E98E56419C851F7003CF9DA /* TUFullySynchronousScheduler.m */; };
+		4E98E56919C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E98E56619C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.m */; };
+		4E98E56A19C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E98E56619C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.m */; };
+		4EFA9FF019C1F5BA00C2E906 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFA9FEF19C1F5BA00C2E906 /* XCTest.framework */; };
+		4EFA9FF219C1F5BA00C2E906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFA9FF119C1F5BA00C2E906 /* Foundation.framework */; };
+		4EFA9FF419C1F5BA00C2E906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFA9FF319C1F5BA00C2E906 /* UIKit.framework */; };
+		4EFA9FFA19C1F5BA00C2E906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EFA9FF819C1F5BA00C2E906 /* InfoPlist.strings */; };
+		4EFAA01A19C1F6C300C2E906 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFA9FEF19C1F5BA00C2E906 /* XCTest.framework */; };
+		4EFAA02019C1F6C300C2E906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EFAA01E19C1F6C300C2E906 /* InfoPlist.strings */; };
+		4EFAA03D19C1F79A00C2E906 /* TUGCDSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA03919C1F79A00C2E906 /* TUGCDSchedulerTest.m */; };
+		4EFAA03E19C1F79A00C2E906 /* TUGCDSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA03919C1F79A00C2E906 /* TUGCDSchedulerTest.m */; };
+		4EFAA03F19C1F79A00C2E906 /* TUOperationQueueSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA03A19C1F79A00C2E906 /* TUOperationQueueSchedulerTest.m */; };
+		4EFAA04019C1F79A00C2E906 /* TUOperationQueueSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA03A19C1F79A00C2E906 /* TUOperationQueueSchedulerTest.m */; };
+		4EFAA05419C1F7E600C2E906 /* TUGCDScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA04519C1F7E600C2E906 /* TUGCDScheduler.m */; };
+		4EFAA05519C1F7E600C2E906 /* TUGCDScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA04519C1F7E600C2E906 /* TUGCDScheduler.m */; };
+		4EFAA05619C1F7E600C2E906 /* TUGCDSchedulerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA04719C1F7E600C2E906 /* TUGCDSchedulerFactory.m */; };
+		4EFAA05719C1F7E600C2E906 /* TUGCDSchedulerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA04719C1F7E600C2E906 /* TUGCDSchedulerFactory.m */; };
+		4EFAA05819C1F7E600C2E906 /* TUOperationQueueScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA04A19C1F7E600C2E906 /* TUOperationQueueScheduler.m */; };
+		4EFAA05919C1F7E600C2E906 /* TUOperationQueueScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA04A19C1F7E600C2E906 /* TUOperationQueueScheduler.m */; };
+		4EFAA05A19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA04C19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.m */; };
+		4EFAA05B19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAA04C19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.m */; };
+		FBE5156583E041919D0E4BBE /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5ACC4BFB014488A47D60B9 /* libPods-ios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B805CFB33D94810A26BBEA6 /* libPods-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B66E43214640689979C42C /* Pods-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.xcconfig"; path = "Pods/Pods-ios.xcconfig"; sourceTree = "<group>"; };
+		3A5ACC4BFB014488A47D60B9 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E63D9AB19C99620009D66A9 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4E7B38FE19C2EFFC0031F68A /* TUSchedulerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUSchedulerTest.h; sourceTree = "<group>"; };
+		4E7B38FF19C2EFFC0031F68A /* TUSchedulerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUSchedulerTest.m; sourceTree = "<group>"; };
+		4E98E55E19C84E5F003CF9DA /* TUAsyncTestSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUAsyncTestSentinel.h; sourceTree = "<group>"; };
+		4E98E55F19C84E5F003CF9DA /* TUAsyncTestSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUAsyncTestSentinel.m; sourceTree = "<group>"; };
+		4E98E56319C851F7003CF9DA /* TUFullySynchronousScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUFullySynchronousScheduler.h; sourceTree = "<group>"; };
+		4E98E56419C851F7003CF9DA /* TUFullySynchronousScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUFullySynchronousScheduler.m; sourceTree = "<group>"; };
+		4E98E56519C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUFullySynchronousSchedulerFactory.h; sourceTree = "<group>"; };
+		4E98E56619C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUFullySynchronousSchedulerFactory.m; sourceTree = "<group>"; };
+		4EFA9FEC19C1F5BA00C2E906 /* iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFA9FEF19C1F5BA00C2E906 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4EFA9FF119C1F5BA00C2E906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4EFA9FF319C1F5BA00C2E906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4EFA9FF719C1F5BA00C2E906 /* iOS Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Tests-Info.plist"; sourceTree = "<group>"; };
+		4EFA9FF919C1F5BA00C2E906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EFA9FFD19C1F5BA00C2E906 /* iOS Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Tests-Prefix.pch"; sourceTree = "<group>"; };
+		4EFAA01919C1F6C300C2E906 /* OS X Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OS X Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFAA01D19C1F6C300C2E906 /* OS X Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OS X Tests-Info.plist"; sourceTree = "<group>"; };
+		4EFAA01F19C1F6C300C2E906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EFAA02319C1F6C300C2E906 /* OS X Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OS X Tests-Prefix.pch"; sourceTree = "<group>"; };
+		4EFAA03919C1F79A00C2E906 /* TUGCDSchedulerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUGCDSchedulerTest.m; sourceTree = "<group>"; };
+		4EFAA03A19C1F79A00C2E906 /* TUOperationQueueSchedulerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUOperationQueueSchedulerTest.m; sourceTree = "<group>"; };
+		4EFAA04419C1F7E600C2E906 /* TUGCDScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUGCDScheduler.h; sourceTree = "<group>"; };
+		4EFAA04519C1F7E600C2E906 /* TUGCDScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUGCDScheduler.m; sourceTree = "<group>"; };
+		4EFAA04619C1F7E600C2E906 /* TUGCDSchedulerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUGCDSchedulerFactory.h; sourceTree = "<group>"; };
+		4EFAA04719C1F7E600C2E906 /* TUGCDSchedulerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUGCDSchedulerFactory.m; sourceTree = "<group>"; };
+		4EFAA04919C1F7E600C2E906 /* TUOperationQueueScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUOperationQueueScheduler.h; sourceTree = "<group>"; };
+		4EFAA04A19C1F7E600C2E906 /* TUOperationQueueScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUOperationQueueScheduler.m; sourceTree = "<group>"; };
+		4EFAA04B19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUOperationQueueSchedulerFactory.h; sourceTree = "<group>"; };
+		4EFAA04C19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUOperationQueueSchedulerFactory.m; sourceTree = "<group>"; };
+		4EFAA05219C1F7E600C2E906 /* TUSchedulerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUSchedulerFactory.h; sourceTree = "<group>"; };
+		4EFAA05319C1F7E600C2E906 /* TUScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUScheduler.h; sourceTree = "<group>"; };
+		9FEE65FC78424CC99718398D /* Pods-osx.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.xcconfig"; path = "Pods/Pods-osx.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFA9FE919C1F5BA00C2E906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFA9FF019C1F5BA00C2E906 /* XCTest.framework in Frameworks */,
+				4EFA9FF419C1F5BA00C2E906 /* UIKit.framework in Frameworks */,
+				4EFA9FF219C1F5BA00C2E906 /* Foundation.framework in Frameworks */,
+				FBE5156583E041919D0E4BBE /* libPods-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFAA01619C1F6C300C2E906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFAA01A19C1F6C300C2E906 /* XCTest.framework in Frameworks */,
+				0333FA3E9E16413CB5308BD3 /* libPods-osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E98E55D19C84E5F003CF9DA /* AsyncTestSentinel */ = {
+			isa = PBXGroup;
+			children = (
+				4E98E55E19C84E5F003CF9DA /* TUAsyncTestSentinel.h */,
+				4E98E55F19C84E5F003CF9DA /* TUAsyncTestSentinel.m */,
+			);
+			path = AsyncTestSentinel;
+			sourceTree = "<group>";
+		};
+		4E98E56219C851F7003CF9DA /* FullySynchronous */ = {
+			isa = PBXGroup;
+			children = (
+				4E98E56319C851F7003CF9DA /* TUFullySynchronousScheduler.h */,
+				4E98E56419C851F7003CF9DA /* TUFullySynchronousScheduler.m */,
+				4E98E56519C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.h */,
+				4E98E56619C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.m */,
+			);
+			path = FullySynchronous;
+			sourceTree = "<group>";
+		};
+		4EFA9FE119C1F59A00C2E906 = {
+			isa = PBXGroup;
+			children = (
+				4EFAA04219C1F7E600C2E906 /* Source */,
+				4EFAA03519C1F79A00C2E906 /* Tests */,
+				4EFA9FF519C1F5BA00C2E906 /* iOS Tests */,
+				4EFAA01B19C1F6C300C2E906 /* OS X Tests */,
+				4EFA9FEE19C1F5BA00C2E906 /* Frameworks */,
+				4EFA9FED19C1F5BA00C2E906 /* Products */,
+				31B66E43214640689979C42C /* Pods-ios.xcconfig */,
+				9FEE65FC78424CC99718398D /* Pods-osx.xcconfig */,
+				4E63D9AB19C99620009D66A9 /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFA9FED19C1F5BA00C2E906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFA9FEC19C1F5BA00C2E906 /* iOS Tests.xctest */,
+				4EFAA01919C1F6C300C2E906 /* OS X Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFA9FEE19C1F5BA00C2E906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EFA9FEF19C1F5BA00C2E906 /* XCTest.framework */,
+				4EFA9FF119C1F5BA00C2E906 /* Foundation.framework */,
+				4EFA9FF319C1F5BA00C2E906 /* UIKit.framework */,
+				3A5ACC4BFB014488A47D60B9 /* libPods-ios.a */,
+				2B805CFB33D94810A26BBEA6 /* libPods-osx.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EFA9FF519C1F5BA00C2E906 /* iOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFA9FF619C1F5BA00C2E906 /* Supporting Files */,
+			);
+			path = "iOS Tests";
+			sourceTree = "<group>";
+		};
+		4EFA9FF619C1F5BA00C2E906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EFA9FF719C1F5BA00C2E906 /* iOS Tests-Info.plist */,
+				4EFA9FF819C1F5BA00C2E906 /* InfoPlist.strings */,
+				4EFA9FFD19C1F5BA00C2E906 /* iOS Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EFAA01B19C1F6C300C2E906 /* OS X Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAA01C19C1F6C300C2E906 /* Supporting Files */,
+			);
+			path = "OS X Tests";
+			sourceTree = "<group>";
+		};
+		4EFAA01C19C1F6C300C2E906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAA01D19C1F6C300C2E906 /* OS X Tests-Info.plist */,
+				4EFAA01E19C1F6C300C2E906 /* InfoPlist.strings */,
+				4EFAA02319C1F6C300C2E906 /* OS X Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EFAA03519C1F79A00C2E906 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E98E55D19C84E5F003CF9DA /* AsyncTestSentinel */,
+				4E7B38FE19C2EFFC0031F68A /* TUSchedulerTest.h */,
+				4E7B38FF19C2EFFC0031F68A /* TUSchedulerTest.m */,
+				4EFAA03919C1F79A00C2E906 /* TUGCDSchedulerTest.m */,
+				4EFAA03A19C1F79A00C2E906 /* TUOperationQueueSchedulerTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4EFAA04219C1F7E600C2E906 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAA05319C1F7E600C2E906 /* TUScheduler.h */,
+				4EFAA05219C1F7E600C2E906 /* TUSchedulerFactory.h */,
+				4EFAA04319C1F7E600C2E906 /* GCD */,
+				4EFAA04819C1F7E600C2E906 /* NSOperationQueue */,
+				4E98E56219C851F7003CF9DA /* FullySynchronous */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4EFAA04319C1F7E600C2E906 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAA04419C1F7E600C2E906 /* TUGCDScheduler.h */,
+				4EFAA04519C1F7E600C2E906 /* TUGCDScheduler.m */,
+				4EFAA04619C1F7E600C2E906 /* TUGCDSchedulerFactory.h */,
+				4EFAA04719C1F7E600C2E906 /* TUGCDSchedulerFactory.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		4EFAA04819C1F7E600C2E906 /* NSOperationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAA04919C1F7E600C2E906 /* TUOperationQueueScheduler.h */,
+				4EFAA04A19C1F7E600C2E906 /* TUOperationQueueScheduler.m */,
+				4EFAA04B19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.h */,
+				4EFAA04C19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.m */,
+			);
+			path = NSOperationQueue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EFA9FEB19C1F5BA00C2E906 /* iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFA9FFE19C1F5BA00C2E906 /* Build configuration list for PBXNativeTarget "iOS Tests" */;
+			buildPhases = (
+				7650DBC1E5B042D0BBE06331 /* Check Pods Manifest.lock */,
+				4EFA9FE819C1F5BA00C2E906 /* Sources */,
+				4EFA9FE919C1F5BA00C2E906 /* Frameworks */,
+				4EFA9FEA19C1F5BA00C2E906 /* Resources */,
+				BF9D8FD878F0413AA4DA0665 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Tests";
+			productName = "iOS Tests";
+			productReference = 4EFA9FEC19C1F5BA00C2E906 /* iOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EFAA01819C1F6C300C2E906 /* OS X Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFAA02619C1F6C300C2E906 /* Build configuration list for PBXNativeTarget "OS X Tests" */;
+			buildPhases = (
+				4B078E2391C74329BE2FBF39 /* Check Pods Manifest.lock */,
+				4EFAA01519C1F6C300C2E906 /* Sources */,
+				4EFAA01619C1F6C300C2E906 /* Frameworks */,
+				4EFAA01719C1F6C300C2E906 /* Resources */,
+				3D479799D4DB4EAAA95FD5F0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OS X Tests";
+			productName = "OS X Tests";
+			productReference = 4EFAA01919C1F6C300C2E906 /* OS X Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFA9FE219C1F59A00C2E906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					4EFAA01819C1F6C300C2E906 = {
+						TestTargetID = 4EFA9FEB19C1F5BA00C2E906;
+					};
+				};
+			};
+			buildConfigurationList = 4EFA9FE519C1F59A00C2E906 /* Build configuration list for PBXProject "TUScheduler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EFA9FE119C1F59A00C2E906;
+			productRefGroup = 4EFA9FED19C1F5BA00C2E906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EFA9FEB19C1F5BA00C2E906 /* iOS Tests */,
+				4EFAA01819C1F6C300C2E906 /* OS X Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EFA9FEA19C1F5BA00C2E906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFA9FFA19C1F5BA00C2E906 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFAA01719C1F6C300C2E906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFAA02019C1F6C300C2E906 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D479799D4DB4EAAA95FD5F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-osx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B078E2391C74329BE2FBF39 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7650DBC1E5B042D0BBE06331 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF9D8FD878F0413AA4DA0665 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFA9FE819C1F5BA00C2E906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFAA03F19C1F79A00C2E906 /* TUOperationQueueSchedulerTest.m in Sources */,
+				4EFAA05419C1F7E600C2E906 /* TUGCDScheduler.m in Sources */,
+				4EFAA05819C1F7E600C2E906 /* TUOperationQueueScheduler.m in Sources */,
+				4E98E56019C84E5F003CF9DA /* TUAsyncTestSentinel.m in Sources */,
+				4E98E56919C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.m in Sources */,
+				4E7B390019C2EFFC0031F68A /* TUSchedulerTest.m in Sources */,
+				4EFAA03D19C1F79A00C2E906 /* TUGCDSchedulerTest.m in Sources */,
+				4EFAA05619C1F7E600C2E906 /* TUGCDSchedulerFactory.m in Sources */,
+				4EFAA05A19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.m in Sources */,
+				4E98E56719C851F7003CF9DA /* TUFullySynchronousScheduler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFAA01519C1F6C300C2E906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFAA04019C1F79A00C2E906 /* TUOperationQueueSchedulerTest.m in Sources */,
+				4EFAA05519C1F7E600C2E906 /* TUGCDScheduler.m in Sources */,
+				4EFAA05919C1F7E600C2E906 /* TUOperationQueueScheduler.m in Sources */,
+				4E98E56119C84E5F003CF9DA /* TUAsyncTestSentinel.m in Sources */,
+				4E98E56A19C851F7003CF9DA /* TUFullySynchronousSchedulerFactory.m in Sources */,
+				4E7B390119C2F0AC0031F68A /* TUSchedulerTest.m in Sources */,
+				4EFAA03E19C1F79A00C2E906 /* TUGCDSchedulerTest.m in Sources */,
+				4EFAA05719C1F7E600C2E906 /* TUGCDSchedulerFactory.m in Sources */,
+				4EFAA05B19C1F7E600C2E906 /* TUOperationQueueSchedulerFactory.m in Sources */,
+				4E98E56819C851F7003CF9DA /* TUFullySynchronousScheduler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EFA9FF819C1F5BA00C2E906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFA9FF919C1F5BA00C2E906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4EFAA01E19C1F6C300C2E906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFAA01F19C1F6C300C2E906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EFA9FE619C1F59A00C2E906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4EFA9FE719C1F59A00C2E906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4EFA9FFF19C1F5BA00C2E906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B66E43214640689979C42C /* Pods-ios.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Tests/iOS Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOS Tests/iOS Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4EFAA00019C1F5BA00C2E906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B66E43214640689979C42C /* Pods-ios.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Tests/iOS Tests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOS Tests/iOS Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		4EFAA02719C1F6C300C2E906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEE65FC78424CC99718398D /* Pods-osx.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OS X Tests/OS X Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "OS X Tests/OS X Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4EFAA02819C1F6C300C2E906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEE65FC78424CC99718398D /* Pods-osx.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OS X Tests/OS X Tests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "OS X Tests/OS X Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EFA9FE519C1F59A00C2E906 /* Build configuration list for PBXProject "TUScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFA9FE619C1F59A00C2E906 /* Debug */,
+				4EFA9FE719C1F59A00C2E906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFA9FFE19C1F5BA00C2E906 /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFA9FFF19C1F5BA00C2E906 /* Debug */,
+				4EFAA00019C1F5BA00C2E906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFAA02619C1F6C300C2E906 /* Build configuration list for PBXNativeTarget "OS X Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFAA02719C1F6C300C2E906 /* Debug */,
+				4EFAA02819C1F6C300C2E906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EFA9FE219C1F59A00C2E906 /* Project object */;
+}
