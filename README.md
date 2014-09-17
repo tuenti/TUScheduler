@@ -180,16 +180,19 @@ Again, a special factory is injected in tests, one which will always provide ful
 ### Available Schedulers
 
 TUScheduler library comes with three concrete factories:
+
 1. **TUGCDSchedulerFactory** - Creates GCD based schedulers.
 2. **TUOperationQueueSchedulerFactory** - creates schedulers based on NSOperation API.
 3. **TUFullySynchronousSchedulerFactory** - creates fully synchronous schedulers.
 
 Each TUSchedulerFactory can be used to generate three types of TUSchedulers:
+
 1. **Serial Schedulers** - execute jobs serially in FIFO order.
 2. **Concurrent Schedulers** - execute jobs concurrently.
 2. **Main Thread Schedulers** - used to post jobs in the main thread.
 
 Each TUScheduler can be used to post two types of jobs:
+
 1. **scheduleAsync:** - schedules an asynchronous job.
 2. **scheduleSync:** - schedules a synchronous job.
 
